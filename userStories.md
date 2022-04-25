@@ -6,7 +6,7 @@
   * Nested for-loop to check if recent score is better than those in array
     * If they are, .pop lowest score and name?
     * .push new score and name
-  * If user score is not a new highschore display message saying "Better luck next time!"
+  * If user score is not a new highschore display message saying "Your score to beat is *score*"
   * Stretch:
     * Live top five highscores table displayed at bottom of page
     * High Score is tracked by TTC(Time To Complete) or TE(Total Errors)
@@ -23,8 +23,10 @@
   * Use while loop to determine when two cards are chosen
   * Use if statement to determine if cards match or not
   * If they do, alert "Nice job! Only i more matches to go!"
-  * Make cards correct cards disappear or noticeably different
-* As a user, I want 
+  * Make cards correct cards disappear or noticeably different or stay visible/same
+* As a user, I want to know how many attempts I have left so that I know when the game is about to end.
+
+
 * As a developer, I want cards a user clicks to turn over and display an image so that the user can know what image is where.
 * As a developer, I want two cards that do not match to turn back over so that the cards can be reselected
   * Stretch: Counter to track when user chooses two cards that don't match
